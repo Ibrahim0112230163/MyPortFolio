@@ -1,0 +1,464 @@
+{
+  "site": {
+    "title": "Ibrahim Khalil — CSE Student, Software Developer & Researcher",
+    "shortTitle": "Ibrahim Khalil",
+    "description": "Portfolio of Ibrahim Khalil, a Computer Science and Engineering student at United International University building software, secure systems, AI/ML applications and robotics prototypes.",
+    "url": "",
+    "locale": "en_US",
+    "language": "en",
+    "themeColor": "#f4ecdc",
+    "keywords": [
+      "Ibrahim Khalil",
+      "CSE student",
+      "software developer",
+      "researcher",
+      "cybersecurity",
+      "cryptography",
+      "machine learning",
+      "robotics",
+      "United International University",
+      "portfolio"
+    ],
+    "ogImage": "/images/profile.jpg",
+    "skipLinkLabel": "Skip to content",
+    "backToTopLabel": "Back to top"
+  },
+
+  "personal": {
+    "name": "Ibrahim Khalil",
+    "initials": "IK",
+    "role": "CSE Student | Software Developer | Researcher",
+    "location": "Dhaka, Bangladesh",
+    "email": "ibrahimsohan04@gmail.com",
+    "avatar": {
+      "src": "/images/profile.jpg",
+      "alt": "Portrait of Ibrahim Khalil wearing a checked shirt, standing outdoors in front of green trees",
+      "width": 450,
+      "height": 600
+    },
+    "cv": {
+      "href": "/cv/Ibrahim_Khalil_CV.docx",
+      "fileName": "Ibrahim_Khalil_CV.docx"
+    }
+  },
+
+  "hero": {
+    "issue": "Issue #01 — The Origin Story",
+    "greeting": "Hi, I'm",
+    "headline": "CSE Student | Software Developer | Researcher",
+    "intro": "Final-trimester Computer Science and Engineering student at United International University. I build full-stack web platforms, secure transaction systems, AI-enabled applications and multi-sensor robotic prototypes — and I like turning research ideas into software that works.",
+    "speechBubble": "Currently building Vanguard — a search & rescue reconnaissance rover.",
+    "focusLabel": "Powers",
+    "focus": ["Software Development", "Problem Solving", "Cybersecurity", "Cryptography", "AI / ML", "Research"],
+    "stickers": ["CODE!", "BUILD!", "SECURE!"],
+    "primaryCta": { "label": "View My Work", "href": "#projects" },
+    "secondaryCta": { "label": "Download CV", "href": "/cv/Ibrahim_Khalil_CV.docx", "download": true },
+    "scrollHint": "Scroll to turn the page"
+  },
+
+  "sections": {
+    "about": {
+      "id": "about",
+      "kicker": "Chapter 01",
+      "title": "About Me",
+      "subtitle": "The person behind the panels."
+    },
+    "skills": {
+      "id": "skills",
+      "kicker": "Chapter 02",
+      "title": "Skills & Toolkit",
+      "subtitle": "Grouped by what I use them for — no made-up percentages."
+    },
+    "projects": {
+      "id": "projects",
+      "kicker": "Chapter 03",
+      "title": "Projects",
+      "subtitle": "Software platforms, secure systems and hardware builds.",
+      "allFilterLabel": "All",
+      "technologiesLabel": "Built with",
+      "highlightsLabel": "Key features",
+      "githubLabel": "Code",
+      "demoLabel": "Live demo",
+      "emptyState": "New projects are being inked. Check back soon."
+    },
+    "research": {
+      "id": "research",
+      "kicker": "Chapter 04",
+      "title": "Research",
+      "subtitle": "Publications and academic research work.",
+      "interestsLabel": "Research interests",
+      "paperLinkLabel": "Read paper",
+      "emptyState": "Research entries will appear here."
+    },
+    "experience": {
+      "id": "experience",
+      "kicker": "Chapter 05",
+      "title": "Experience & Activities",
+      "subtitle": "Internships, activities and professional work.",
+      "emptyState": "This chapter is still being written — internships and activities will be added here as they happen."
+    },
+    "education": {
+      "id": "education",
+      "kicker": "Chapter 06",
+      "title": "Education",
+      "subtitle": "Where the training arc happened."
+    },
+    "certifications": {
+      "id": "achievements",
+      "kicker": "Bonus Panel",
+      "title": "Achievements & Certifications",
+      "subtitle": "Verified milestones only.",
+      "certificationsLabel": "Certifications",
+      "achievementsLabel": "Achievements",
+      "credentialLabel": "View credential",
+      "emptyState": "Certifications will be listed here once added."
+    },
+    "contact": {
+      "id": "contact",
+      "kicker": "Final Chapter",
+      "title": "Let's Talk",
+      "subtitle": "Open to internships, research collaborations and software roles."
+    }
+  },
+
+  "about": {
+    "speechBubble": "Software, security & intelligent systems.",
+    "paragraphs": [
+      "I'm a final-trimester Computer Science and Engineering student at United International University (CGPA 3.85/4.00) with hands-on experience in full-stack software development, cybersecurity, applied cryptography, AI/ML and embedded robotics.",
+      "I've built web platforms, AI-enabled applications, secure transaction systems and multi-sensor robotic prototypes using React, Next.js, Java, Spring Boot, Python, PostgreSQL, Supabase, Raspberry Pi, ESP32 and Arduino.",
+      "My research paper on energy-efficient multimodal AI for smart agriculture was accepted at IEEE i-COSTE 2026, and I've worked on academic research in hybrid encryption, 5G replay-attack prevention, medical AI, LLM response analysis and climate-focused machine learning."
+    ],
+    "interestsLabel": "Areas of interest",
+    "interests": [
+      { "label": "Software Development", "icon": "code" },
+      { "label": "Cybersecurity", "icon": "shield" },
+      { "label": "Cryptography", "icon": "lock" },
+      { "label": "Artificial Intelligence / ML", "icon": "brain" },
+      { "label": "System Design", "icon": "network" },
+      { "label": "Robotics & Embedded Systems", "icon": "bot" },
+      { "label": "Research", "icon": "microscope" }
+    ],
+    "stats": [
+      { "value": "3.85", "suffix": "/4.00", "label": "CGPA at UIU" },
+      { "value": "IEEE", "label": "Paper accepted at i-COSTE 2026" },
+      { "value": "Final", "label": "Trimester of B.Sc. in CSE" }
+    ],
+    "languagesLabel": "Languages",
+    "languages": [
+      { "name": "Bangla", "level": "Native" },
+      { "name": "English", "level": "Professional working proficiency" }
+    ]
+  },
+
+  "skills": {
+    "categories": [
+      {
+        "name": "Programming",
+        "icon": "terminal",
+        "items": ["C", "C++", "Java", "Python", "JavaScript", "TypeScript", "PHP"]
+      },
+      {
+        "name": "Web Development",
+        "icon": "globe",
+        "items": ["HTML", "CSS", "JavaScript", "PHP", "Tailwind CSS", "React", "Next.js"]
+      },
+      {
+        "name": "Backend & Database",
+        "icon": "database",
+        "items": ["MySQL", "PostgreSQL", "Supabase", "Spring Boot"]
+      },
+      {
+        "name": "AI / Machine Learning",
+        "icon": "brain",
+        "items": ["Machine Learning with Python", "Multimodal ML", "LLM Applications", "Gemini API", "YOLO Object Detection"]
+      },
+      {
+        "name": "Security & Cryptography",
+        "icon": "shield",
+        "items": ["AES-256", "Hybrid Encryption", "Secure Transaction Systems", "Replay-Attack Prevention"]
+      },
+      {
+        "name": "Embedded & Robotics",
+        "icon": "cpu",
+        "items": ["Arduino", "ESP32", "ESP8266", "Raspberry Pi", "Sensors & Actuators", "mmWave Radar", "WebRTC"]
+      },
+      {
+        "name": "Tools",
+        "icon": "wrench",
+        "items": ["Git", "GitHub", "XAMPP", "MySQL Workbench", "Figma"]
+      },
+      {
+        "name": "Other",
+        "icon": "layers",
+        "items": ["Software Architecture", "Cryptography", "AI/ML", "System Design"]
+      }
+    ]
+  },
+
+  "projects": [
+    {
+      "name": "Vanguard",
+      "tagline": "Search & Rescue Aid Reconnaissance Rover",
+      "category": "Hardware & Robotics",
+      "status": "In Progress",
+      "featured": true,
+      "icon": "radar",
+      "description": "A multi-functional disaster-response rover for hazardous and structurally damaged environments, designed to reduce rescuers' direct exposure to dangerous zones.",
+      "highlights": [
+        "Edge-AI human detection with YOLO, plus mmWave radar",
+        "Gas/smoke and flame sensing, IMU, wheel encoders and route mapping",
+        "Automated fire suppression and an automatic flashlight system",
+        "WebRTC two-way communication and emergency medical payload delivery"
+      ],
+      "technologies": ["Raspberry Pi 5", "ESP32", "ESP8266", "YOLO", "mmWave Radar", "WebRTC"],
+      "links": {}
+    },
+    {
+      "name": "SkillPlus",
+      "tagline": "AI-Based Skill-Gap Radar",
+      "category": "Software",
+      "icon": "sparkles",
+      "description": "An AI-driven platform that identifies users' skill gaps and supports targeted skill development.",
+      "highlights": [
+        "Skill-gap analysis built with Python and Gemini API integration",
+        "Application data and backend services on PostgreSQL and Supabase"
+      ],
+      "technologies": ["Python", "Gemini API", "PostgreSQL", "Supabase"],
+      "links": {}
+    },
+    {
+      "name": "Secure Transaction App",
+      "tagline": "Cryptography-first payments",
+      "category": "Software",
+      "icon": "lock",
+      "description": "A secure transaction application protected by AES-256 encryption and a multilayer security architecture.",
+      "highlights": [
+        "Security model designed to counter modern attack scenarios",
+        "Supports offline transaction capability"
+      ],
+      "technologies": ["AES-256 Encryption", "Multilayer Security Architecture"],
+      "links": {}
+    },
+    {
+      "name": "E-Shongskar",
+      "tagline": "Society & Renovation Web Platform",
+      "category": "Software",
+      "icon": "boxes",
+      "description": "A web platform for society- and renovation-related workflows with a React frontend and a MySQL/XAMPP data layer.",
+      "highlights": [
+        "Contributed across interface development and application flow",
+        "Data handling and web-system integration"
+      ],
+      "technologies": ["React", "JavaScript", "HTML", "Tailwind CSS", "MySQL", "XAMPP"],
+      "links": {}
+    },
+    {
+      "name": "Sign Language Platform",
+      "tagline": "Accessible communication on the web",
+      "category": "Software",
+      "icon": "languages",
+      "description": "A web application delivering sign-language-related functionality.",
+      "highlights": [
+        "Built the application structure and frontend experience",
+        "Integrated Supabase backend services"
+      ],
+      "technologies": ["Next.js", "Supabase"],
+      "links": {}
+    },
+    {
+      "name": "Garment Management Website",
+      "tagline": "Operations for the garment industry",
+      "category": "Software",
+      "icon": "layout",
+      "description": "A management system for garment-industry operations.",
+      "highlights": [
+        "Organized business workflows and operational records",
+        "Management-oriented application functions"
+      ],
+      "technologies": ["Java", "Spring Boot"],
+      "links": {}
+    },
+    {
+      "name": "Management Platform",
+      "tagline": "Jira-Inspired Project & Client Management System",
+      "category": "Software",
+      "icon": "briefcase",
+      "description": "A project and client management platform with client portfolios, task management, prioritization and backlog-style workflows.",
+      "highlights": [
+        "Client portfolios, task management and prioritization",
+        "Practical workflows for managers and teams coordinating across multiple projects"
+      ],
+      "technologies": ["Web Application", "Product Design"],
+      "links": {}
+    },
+    {
+      "name": "BETA Rover",
+      "tagline": "Hazard Response Robot",
+      "category": "Hardware & Robotics",
+      "icon": "bot",
+      "description": "A remote-controlled robotic system for hazardous-environment assistance and object handling.",
+      "highlights": [
+        "Gas-leak detection with automatic safety response",
+        "Fire detection and an automated water-spraying mechanism",
+        "Combined sensing, actuation and control logic"
+      ],
+      "technologies": ["Sensors", "Actuators", "Automation", "Remote Control"],
+      "links": {}
+    }
+  ],
+
+  "researchInterests": [
+    "Cybersecurity",
+    "Cryptography",
+    "Artificial Intelligence / Machine Learning",
+    "Smart Agriculture",
+    "Secure Payment Systems"
+  ],
+
+  "research": [
+    {
+      "title": "Energy-Efficient Multimodal AI for Optimizing Crop Yields in Smart Agriculture",
+      "type": "Publication",
+      "venue": "IEEE i-COSTE 2026",
+      "status": "Accepted",
+      "year": "2026",
+      "area": "AI / ML · Smart Agriculture",
+      "reference": "Paper ID: ieee-icoste_3964",
+      "featured": true
+    },
+    {
+      "title": "Petty Cash Transaction Using a Hybrid Encryption Framework",
+      "type": "Academic Research",
+      "area": "Cryptography",
+      "description": "Research on secure transactions and hybrid encryption mechanisms."
+    },
+    {
+      "title": "5G Roaming Replay-Attack Prevention",
+      "type": "Academic Research",
+      "area": "Cybersecurity",
+      "description": "Preventing and mitigating replay attacks in 5G roaming environments."
+    },
+    {
+      "title": "Early Glaucoma Detection",
+      "type": "Academic Research",
+      "area": "Machine Learning · Medical AI",
+      "description": "Machine-learning research focused on the early detection of glaucoma."
+    },
+    {
+      "title": "LLM Response Analysis",
+      "type": "Academic Research",
+      "area": "Machine Learning · LLMs",
+      "description": "Analyzing responses generated by large language models."
+    },
+    {
+      "title": "Climate Action and Youth Response",
+      "type": "Academic Research",
+      "area": "Machine Learning · Climate",
+      "description": "Machine-learning research on climate-action and youth-response data."
+    }
+  ],
+
+  "experience": [],
+
+  "education": [
+    {
+      "degree": "Bachelor of Science (B.Sc.) in Computer Science and Engineering",
+      "institution": "United International University (UIU)",
+      "department": "Computer Science and Engineering",
+      "location": "Dhaka, Bangladesh",
+      "period": "Final Trimester (Ongoing)",
+      "result": "CGPA 3.85 / 4.00",
+      "current": true
+    },
+    {
+      "degree": "Higher Secondary Certificate (HSC)",
+      "institution": "Rajuk Uttara Model College",
+      "location": "Dhaka",
+      "result": "GPA 5.00 / 5.00"
+    },
+    {
+      "degree": "Secondary School Certificate (SSC)",
+      "institution": "Barguna Police Line Model School",
+      "location": "Barguna",
+      "result": "GPA 5.00 / 5.00"
+    }
+  ],
+
+  "certifications": [],
+
+  "achievements": [
+    {
+      "title": "Research paper accepted at IEEE i-COSTE 2026",
+      "category": "Publication",
+      "date": "2026",
+      "description": "Energy-Efficient Multimodal AI for Optimizing Crop Yields in Smart Agriculture.",
+      "icon": "trophy"
+    }
+  ],
+
+  "contact": {
+    "intro": "Have an internship, research idea or project in mind? Send a message — I read everything.",
+    "speechBubble": "Say hello!",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell me a little about what you have in mind…",
+      "submitLabel": "Send Message",
+      "note": "Sending opens your email app with the message pre-filled — nothing is stored on this site.",
+      "subjectTemplate": "Portfolio message from {name}",
+      "successMessage": "Your email app should now be open with the message ready to send.",
+      "errorRequired": "Please fill in your name, email and message.",
+      "errorEmail": "Please enter a valid email address."
+    },
+    "directLabel": "Or reach me directly",
+    "locationLabel": "Based in"
+  },
+
+  "social": [
+    {
+      "label": "Email",
+      "handle": "ibrahimsohan04@gmail.com",
+      "url": "mailto:ibrahimsohan04@gmail.com",
+      "icon": "mail"
+    },
+    {
+      "label": "LinkedIn",
+      "handle": "sohan-ibrahim-198205254",
+      "url": "https://www.linkedin.com/in/sohan-ibrahim-198205254",
+      "icon": "linkedin"
+    },
+    {
+      "label": "GitHub",
+      "handle": "Ibrahim0112230163",
+      "url": "https://github.com/Ibrahim0112230163",
+      "icon": "github"
+    }
+  ],
+
+  "navigation": [
+    { "label": "Home", "href": "#home" },
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Research", "href": "#research" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Education", "href": "#education" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+
+  "navigationExtras": {
+    "menuOpenLabel": "Open menu",
+    "menuCloseLabel": "Close menu",
+    "ctaLabel": "Hire me",
+    "ctaHref": "#contact"
+  },
+
+  "footer": {
+    "tagline": "Building reliable software and intelligent systems — one panel at a time.",
+    "copyright": "© {year} {name}. All rights reserved.",
+    "endMark": "THE END… for now."
+  }
+}
